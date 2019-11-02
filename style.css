@@ -1,0 +1,71 @@
+body{
+    margin: 0
+}
+header{
+    background-image: url(fesb.jpg);
+    background-repeat: no-repeat;
+    size: 100%;
+    height: 400px;
+    
+}
+#garmaz{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 30%; 
+}
+#navbar{
+    overflow: hidden;
+    background: rgb(61, 59, 59);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+#active a{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+#basic a{
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+#active{
+    float: left;
+    background-color: gray;
+}
+#basic{
+    float: left;
+}
+#basic:hover{
+    background-color: rgb(161, 156, 156);
+}
+.krug{
+    height: 300px;
+    width: 300px;
+    font-size: 60px;
+    vertical-align: middle;
+    text-align: center;
+    float: left;
+    border:solid;
+    border-radius: 50%;
+}
+.krug2{
+    height: 300px;
+    width: 300px;
+    font-size: 60px;
+    text-align: center;
+    float: left;
+    border:solid;
+    border-radius: 50%;
+}
+
+
